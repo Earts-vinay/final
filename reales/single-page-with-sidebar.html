@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Reales - Sidebar Template</title>
+<meta name="author" content="tansh">
+<meta name="description" content="HTML Landing Page Teamplate">
+<meta name="keywords" content="real estate, agency, business, one page">
+
+<!-- FAVICON FILES -->
+<link href="assets/images/icons/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+<link href="assets/images/icons/apple-touch-icon-120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
+<link href="assets/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
+<link href="assets/images/icons/favicon.png" rel="shortcut icon">
+
+<!-- CSS FILES -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/fonts/iconfonts.css">
+<link rel="stylesheet" href="assets/css/plugins.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/color.css">
+</head>
+<body>
+<div id="dtr-wrapper" class="clearfix"> 
+    
+    <!-- preloader starts -->
+    <div class="dtr-preloader">
+        <div class="dtr-preloader-inner">
+            <div class="dtr-loader">Loading...</div>
+        </div>
+    </div>
+    <!-- preloader ends --> 
+    
+    <!-- Small Devices Header
+============================================= -->
+    <div class="dtr-responsive-header fixed-top">
+        <div class="container"> 
+            
+            <!-- small devices logo --> 
+            <a href="index.html"><img src="assets/images/logo-dark.png" alt="logo"></a> 
+            <!-- small devices logo ends --> 
+            
+            <!-- menu button -->
+            <button id="dtr-menu-button" class="dtr-hamburger" type="button"><span class="dtr-hamburger-lines-wrapper"><span class="dtr-hamburger-lines"></span></span></button>
+        </div>
+        <div class="dtr-responsive-header-menu"></div>
+    </div>
+    <!-- Small Devices Header ends
+============================================= --> 
+    
+    <!-- header starts
+============================================= -->
+    <header id="dtr-header-global" class="fixed-top">
+        <div class="d-flex align-items-center justify-content-between"> 
+            
+            <!-- header left starts -->
+            <div class="dtr-header-left"> 
+                
+                <!-- logo --> 
+                <a class="logo-default dtr-scroll-link" href="#home"><img src="assets/images/logo-dark.png" alt="logo"></a> 
+                
+                <!-- logo on scroll --> 
+                <a class="logo-alt dtr-scroll-link" href="#home"><img src="assets/images/logo-dark.png" alt="logo"></a> 
+                <!-- logo on scroll ends --> 
+                
+            </div>
+            <!-- header left ends --> 
+            
+            <!-- header right starts -->
+            <div class="dtr-header-right ml-auto"> 
+                
+                <!-- contact starts -->
+                <div class="dtr-header-contact dtr-ml-50 dtr-mt-5">
+                    <p><a href="#"> <i class="icon-phone-call dtr-mr-5 color-dark-blue"></i> 1800 234 567 </a></p>
+                </div>
+                <!-- contact ends --> 
+                
+                <!-- menu starts-->
+                <div class="main-navigation dtr-menu-light">
+                    <ul class="sf-menu dtr-scrollspy dtr-nav dark-nav-on-load dark-nav-on-scroll">
+                        <li> <a class="nav-link" href="index.html#home">Home.</a> </li>
+                        <li> <a class="nav-link" href="index.html#about">About.</a> </li>
+                        <li> <a class="nav-link" href="index.html#properties">Properties.</a> </li>
+                        <li> <a class="nav-link" href="index.html#services">Services.</a> </li>
+                        <li> <a class="nav-link" href="index.html#contact">Contact.</a> </li>
+                    </ul>
+                </div>
+                <!-- menu ends --> 
+                
+            </div>
+            <!-- header right ends --> 
+            
+        </div>
+    </header>
+    <!-- header ends
+================================================== --> 
+    
+    <!-- Page Title 
+============================================= -->
+    <div class="dtr-page-title-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="dtr-entry-title">Agile practices to accelerate machine learning</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Page Title ends
+============================================= --> 
+    
+    <!-- == main content starts == -->
+    <div id="dtr-main-content" class="bg-white">
+        <div class="container">
+            <div class="dtr-page-with-sidebar dtr-has-right-sidebar"> 
+                
+                <!-- ========== page main content area starts ========== -->
+                <div class="dtr-main page-pt page-pb"> 
+                    
+                    <!-- image -->
+                    <div class="entry-img"> <img src="assets/images/blogpost-img1.jpg" alt="image"> </div>
+                    
+                    <!-- meta-->
+                    <ul class="entry-meta clearfix">
+                        <li class="meta-date"><a href="#">February 25, 2020</a></li>
+                        <li class="meta-author"><a href="#">John Doe</a></li>
+                        <li class="meta-category"><span>in</span> <a href="#">Marketing</a>, <a href="#">Fintech</a></li>
+                    </ul>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that arew how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quanta sit alias, nunc tantum possitne esse tanta. Nihil opus est exemplis hoc facere longius. Eiuro, inquit adridens, iniquum.</p>
+                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that arew how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                    
+                    <!-- blockquote starts -->
+                    <div class="dtr-bordered-blockquote dtr-my-30">
+                        <blockquote class="color-dark"> Technology is just a tool. In terms of getting the kids working together and
+                            motivating them, the teacher is the most important. </blockquote>
+                        <p class="dtr-quote-source">- Bill Gates</p>
+                    </div>
+                    <!-- blockquote ends -->
+                    
+                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that arew how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                </div>
+                <!-- ========== page main content area ends ========== --> 
+                
+                <!-- ========== sidebar starts ========== -->
+                <div class="dtr-sidebar page-pt page-pb"> 
+                    
+                    <!-- == logo slider starts == -->
+                    <div class="dtr-slick-slider dtr-img-slider-1col"> 
+                        <!-- img 1 -->
+                        <div> <img src="assets/images/img-1.jpg" alt="image"> </div>
+                        <!-- img 2 -->
+                        <div> <img src="assets/images/img-3.jpg" alt="image"> </div>
+                        <!-- img 3 -->
+                        <div> <img src="assets/images/img-4.jpg" alt="image"> </div>
+                        <!-- img 4 -->
+                        <div> <img src="assets/images/img-5.jpg" alt="image"> </div>
+                    </div>
+                    
+                    <!-- spacer -->
+                    <div class="spacer-30"></div>
+                    
+                    <!-- == about starts == -->
+                    <h5 class="widget-title">About</h5>
+                    <img src="assets/images/img-1.jpg" alt="image">
+                    <p class="dtr-mt-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quanta sit alias, nunc tantum possitne esse tanta. Eiuro, inquit adridens, iniquum. Men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
+                    <!-- == about ends == --> 
+                    
+                    <!-- spacer -->
+                    <div class="spacer-30"></div>
+                    
+                    <!-- == links starts == -->
+                    <h5 class="widget-title">Useful Links</h5>
+                    <ul class="dtr-list">
+                        <li><a href="#">Digital</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Fintech</a></li>
+                        <li><a href="#">IT Consulting</a></li>
+                        <li><a href="#">Web Security</a></li>
+                    </ul>
+                    <!-- == links end == --> 
+                    
+                </div>
+                <!-- ========== sidebar ends ========== --> 
+                
+            </div>
+        </div>
+    </div>
+    <!-- == main content ends == --> 
+    
+    <!-- footer section starts
+================================================== -->
+    <footer id="dtr-footer"> 
+        
+        <!--== footer main starts ==-->
+        <div class="dtr-footer-main dtr-box-layout"> 
+            
+            <!--== row starts ==-->
+            <div class="row"> 
+                
+                <!-- column 1 starts -->
+                <div class="col-12 col-md-6 footer-col-1"> <img src="assets/images/logo-dark.png" alt="logo">
+                    <p class="dtr-mt-20">&copy; Copyright 2021. Made by <a href="https://themeforest.net/user/tansh">Tansh</a></p>
+                </div>
+                <!-- column 1 ends --> 
+                
+                <!-- column 2 starts -->
+                <div class="col-12 col-md-6 footer-col-2"> 
+                    
+                    <!-- list starts -->
+                    <ul class="dtr-list-inline">
+                        <li><a href="#home" class="dtr-scroll-link">Home</a></li>
+                        <li><a href="#about" class="dtr-scroll-link">About</a></li>
+                        <li><a href="#properties" class="dtr-scroll-link">Properties</a></li>
+                        <li><a href="#services" class="dtr-scroll-link">Services</a></li>
+                        <li><a href="#contact" class="dtr-scroll-link">Contact</a></li>
+                    </ul>
+                    <!-- list ends --> 
+                    
+                    <!-- social starts -->
+                    <ul class="dtr-social dtr-social-list dtr-mt-20">
+                        <li><a href="#" class="dtr-instagram" target="_blank" title="instagram"></a></li>
+                        <li><a href="#" class="dtr-skype" target="_blank" title="skype"></a></li>
+                        <li><a href="#" class="dtr-google" target="_blank" title="google"></a></li>
+                        <li><a href="#" class="dtr-twitter" target="_blank" title="twitter"></a></li>
+                    </ul>
+                    <!-- social ends --> 
+                    
+                </div>
+                <!-- column 2 ends --> 
+                
+            </div>
+            <!--== row ends ==--> 
+            
+        </div>
+        <!--== footer main ends ==--> 
+        
+    </footer>
+    <!-- footer section ends
+================================================== --> 
+    
+</div>
+<!-- #dtr-wrapper ends --> 
+
+<!-- JS FILES --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/plugins.js"></script> 
+<script src="assets/js/slick.min.js"></script> 
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
