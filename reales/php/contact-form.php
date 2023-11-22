@@ -7,9 +7,10 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	$youremail = 'jagathswapnarealtors12@gmail.com';  
 
 	// prepare message 
-	$body = "You have got a new message from the contact form on your website - Reales :
+	$body = "You have got a new message from the contact form on your website - Jagathswapna :
 	
 	Name:  $_POST[name]
+	Phone: $_POST[number]
 	Email:  $_POST[email]
 	Subject:  $_POST[subject]
 	Message:  $_POST[message]";
@@ -20,7 +21,7 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	  $headers = "From: $youremail";
 	}
 
-	mail($youremail, 'Message from Reales', $body, $headers );
+	mail($youremail, 'Message from Jagathswapna', $body, $headers );
 
 } ?>
 
